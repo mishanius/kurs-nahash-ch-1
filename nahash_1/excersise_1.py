@@ -6,6 +6,6 @@ HELLO="asdad"
 # TODO hello("ploni", "almoni") will return "hello ploni almoni"
 def hello_world(name, family):
     # this is variable assignment
-    to_print = "hello " + name + "" + family
+    to_print = "hello " + name + " " + family
     # this is a return statemnt
     return to_print
