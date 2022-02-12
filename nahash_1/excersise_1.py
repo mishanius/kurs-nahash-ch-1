@@ -5,7 +5,7 @@
 # example: hello("ploni", "almoni") will return "hello ploni almoni"
 def hello_world(name):
     # this is variable assignment
-    to_print = "hello " + name
+    to_print = "helloo " + name
     # this is a return statemnt
     return to_print
 
