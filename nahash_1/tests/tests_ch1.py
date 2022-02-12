@@ -5,7 +5,7 @@ from nahash_1 import excersise_3
 
 class BasicTests(unittest.TestCase):
     def test1(self): 
-        self.assertEqual(ex1.hello_world("michael", "ptitsyn"), "hello michael ptitsyn")
+        self.assertEqual(ex1.hello_world("ploni", "almoni"), "hello ploni almoni")
     
     def test2_1(self): 
         self.assertEqual(excersise_2.basic_if(5), 5)
