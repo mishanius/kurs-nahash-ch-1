@@ -1,11 +1,9 @@
 import unittest
-from nahash_1 import excersise_1 as ex1
-from nahash_1 import excersise_2
-from nahash_1 import excersise_3
+from if_and_methods import greeting_excersise_1 as ex1
 
 class BasicTests(unittest.TestCase):
     def test1(self): 
-        self.assertEqual(ex1.hello_world("ploni", "almoni"), "hello ploni almoni")
+        self.assertEqual(ex1.calculate_age_group("ploni", "almoni"), "hello ploni almoni")
     
     def test2_1(self): 
         self.assertEqual(excersise_2.basic_if(5), 5)
